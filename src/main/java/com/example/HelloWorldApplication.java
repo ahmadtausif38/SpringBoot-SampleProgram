@@ -16,7 +16,9 @@ public class HelloWorldApplication {
 	
 	@GetMapping("/test")
 	public String show(){
-		return "Hello!, Your first SpringBoot Project is deployed successfully...!";
+		return "Hi Laxmi!"+"<br>"
+				+"Tausif is showing you his first SpringBoot Project deployed on AWS successfully...!";
+
 
 		}
 
